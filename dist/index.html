@@ -14,6 +14,11 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- scripts-->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
         <script src="js/typewriter.js"></script>
     </head>
     <body id="page-top">
@@ -27,17 +32,25 @@
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.JPG" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
+            <p class="lead mb-5"></p>
+                <div class="social-icons">
+                   <a class="social-icon " href="https://www.linkedin.com/in/dzvenyslava-koman/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/dzviinkak"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" href="https://www.facebook.com/dzvinka.koman/"><i class="fab fa-facebook-f"></i></a>
+                </div>
             <!-- <div class="embed-responsive embed-responsive-1by1">
                 <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1oWI1gusJutbonlewbHZpYn-hVA6P7p7M/preview"></iframe>
               </div> -->
@@ -52,102 +65,31 @@
                         <span class="text-primary">Koman</span>
                     </h1>
                     <div class="subheading mb-5">
-                        San Francisco, CA, USA · Berlin, Germany· +380993033140 ·
+                        San Francisco, CA, USA |   Berlin, Germany  | +380993033140  |  +4915227426642  |  
                         <a href="mailto:dzvenyslava.koman@gmail.com">dzvenyslava.koman@gmail.com</a>
                     </div>
 
-                    <!-- <div class="container">
-                        <p id='typewrt'>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                      </div> -->
+                    
+                    <h1 class="mb-0">
+                        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Dzvinka.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                        <span class="wrap"></span>
+                        </a>
+                    </h1>
 
                     <p class="lead mb-5"></p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/dzvenyslava-koman/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/dzviinkak"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href=""><i class="fab fa-twitter"></i></a>
                         <a class="social-icon" href="https://www.facebook.com/dzvinka.koman/"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            	<!-- Resume -->
-            <section class="resume-section" id="resume">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Resume</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="row mb-5 ">
-                            <footer>
-                                <a href="/dist/assets/Koman_Dzvenyslava.pdf" class="title text-primary mb-3" download><i class="fa fa-download"></i> Download Resume</a>
-                            </footer>
-                        </div> 
-                    </div>    
-                </div>  
+            
+            <section class="resume-section" id="about">
+                
             </section>
             <hr class="m-0" />
-            </section>
-            <!-- Interests-->
-                <section class="resume-section" id="interests">
-                    <div class="resume-section-content">
-                        <h2 class="mb-5">Interests</h2>
-                        To be added.
-                        </div>
-                </section>
-                <hr class="m-0" />
-            </section>
-            <hr class="m-0" />
-            <!-- Experience
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Engineer Intern</h3>
-                            <div class="subheading mb-3">Onfleet</div>
-                            <ul>
-                                <li>Developed a system that sends around 4000 emails/day using JS and SendGrid API; included implementation of a series of webhooks and implementation of a queue to enable processing of a large number of emails at the same time.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Business Development Intern</h3>
-                            <div class="subheading mb-3">Sandbox Network</div>
-                            <ul>
-                                <li>Developed market entry strategy for a Youtube channel with 2 million subscribers.</li>
-                                <li>Led a team of 5 to achieve the project’s goals on time. </li>
-                            </ul>
-                            </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - April 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Lead of Student Reaserch and Development Team</h3>
-                            <div class="subheading mb-3">Newday Investing</div>
-                            <ul>
-                                <li>Developed algorithm using Python for scoring sustainability of consumer transactions.</li>
-                                <li>Maintained a database of companies and users with 4000+ entries.</li>
-                                <li>Led a team of 5 working on project deliverables.</li>
-                                <li>Collaborated on peer code reviews using GitHub.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary"> October 2019 - April 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Finance Lead</h3>
-                            <div class="subheading mb-3">European Youth Parliament Ukraine</div>
-                            <ul>
-                                <li>Developed  a framework for financial reporting and budgeting systems.</li>
-                                <li>Supervised 10 people in fundraising for EYP’s activities with a budget of 40,000 EUR.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2017 - June 2018</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" /> -->
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
@@ -183,17 +125,18 @@
             <section class="resume-section" id="courses">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Courses</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Codepath iOS University</h3>
+                            <h3 class="mb-0"> Deep Learning Specialization by DeepLearning.AI</h3>
                             <ul>
-                                <li>Completed a 10-week iOS course that culminated in the group project with development of an iOS app that connects users with skilled contractors for everyday jobs such as cleaning, plumbing, etc. </li>
-                                <li>Leveraged Git for version control and Swift for development.</li>
+                                <li> Working towards completion of the course that focuses on topic of neural networks.
+                                    </li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2019 - May 2023</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2021 </span></div>
                     </div>
-                    
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Codepath Cybersecurity Course</h3>
@@ -202,11 +145,72 @@
                                     </li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2015 - May 2017</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - May 2021</span></div>
                     </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Codepath iOS University</h3>
+                            <ul>
+                                <li>Completed a 10-week iOS course that culminated in the group project with development of an iOS app that connects users with skilled contractors for everyday jobs such as cleaning, plumbing, etc. </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - December 2020</span></div>
+                    </div>
+                    
+                    
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- Personal Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+
+				<p>Head to my <a href="https://github.com/dzviinkak">Github</a> for more information</p>
+			</header>
+			<div class="row">
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<!-- <a href="#" class="image featured"><img src="images/flixster.gif" alt="Dzvinka flixster" /></a> -->
+						<h3><a href="#">HandyFriends</a></h3>
+						<p>An Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments</p>
+						<p><a href="https://github.com/dzviinkak/parstagram"><b>View Code</b></a></p>
+					</article>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<!-- <a href="#" class="image featured"><img src="images/twitter.gif" alt="Dzvinka twitter" /></a> -->
+						<h3><a href="#">Twitter</a></h3>
+						<p>A Twitter clone to view, compose, favorite, and retweet tweets. Implemented with the Twitter API.</p>
+						<p><a href="https://github.com/dzviinkak/twitter_ios_starter"><b>View Code</b></a></p>
+					</article>
+				</div>
+			
+
+                <div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<!-- <a href="#" class="image featured"><img src="images/HealthFirst-jolie.gif" alt="Dzvinka" /></a> -->
+						<h3><a href="#">Algorithmic Trading bot</a></h3>
+						<p>A Python bot hosted at AWS that trades stocks (in game mode) based on a combination of several strategies. </p>
+						<p><a href="https://github.com/dzviinkak/algo_trading"><b>View Code</b></a></p>
+					</article>
+				</div>
+                
+                <div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<!-- <a href="#" class="image featured"><img src="images/HealthFirst-jolie.gif" alt="Dzvinka Parstagram" /></a> -->
+						<h3><a href="#">FridgeHacks</a></h3>
+						<p>A cost-effective in-house solution for the problem of cold supply management in medicine warehouses managed by Doctors Without Borders.  </p>
+						<p><a href="https://github.com/congnguyendinh0/bcg-berlin-hackathon-msf-teamdiverse"><b>View Code</b></a></p>
+					</article>
+				</div>
+
+            </section>
+            <hr class="m-0" />
+
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
@@ -254,6 +258,31 @@
                 </div>
             </section>
             <hr class="m-0" />
+             <!-- Resume -->
+            <section class="resume-section" id="resume">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Resume</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row mb-5 ">
+                            <footer>
+                                <a href="/dist/assets/Koman_Dzvenyslava.pdf" class="title text-primary mb-3" download><i class="fa fa-download"></i> Download Resume</a>
+                            </footer>
+                        </div> 
+                    </div>    
+                </div>  
+            </section>
+            <hr class="m-0" />
+            </section>
+            <!-- Interests
+                <section class="resume-section" id="interests">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Interests</h2>
+                        To be added.
+                        </div>
+                </section>
+                <hr class="m-0" />
+            </section>
+            <hr class="m-0" /> -->
             <section id="contact" class="resume-section">
                 <div class="container">
                     <div>
@@ -267,12 +296,7 @@
                         </footer>
                     </div>
                 </div>
-                </section>
-                <hr class="m-0" />
-
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+            </section>
+        <hr class="m-0" />
     </body>
 </html>
