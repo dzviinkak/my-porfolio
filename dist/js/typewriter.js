@@ -51,7 +51,7 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fe8a71}";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #db2b3c}";
   document.body.appendChild(css);
 };
 //#fe8a71
